@@ -71,7 +71,7 @@ Create a lightweight clone filtered to a single taxonomic branch. This guide use
 
 ### Step 4: Data Model Library via Scaffolding (Optional)
 Build a .NET data access library using database-first scaffolding with EF Core, Pomelo, and MySqlConnector.  
-👉 [Go to Step 4]docs/step_04_scaffolding.md)
+👉 [Go to Step 4](docs/step_04_scaffolding.md)
 
 ### Step 5: Console Test Application (Optional)
 Create a command-line test application using the data model library generated in Step 4.  
