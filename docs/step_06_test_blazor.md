@@ -170,7 +170,7 @@ Run the Blazor application. The home page will connect to `testudines_itis` and 
 
 
 
-![image-20261121172138529](assets\image-blazor.png)
+![image-20261121172138529](assets/image-blazor.png)
 
 
 
