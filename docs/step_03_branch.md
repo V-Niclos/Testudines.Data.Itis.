@@ -1,6 +1,6 @@
-# Step 03: Reduce the ITIS Database to a Single Taxonomic Branch
+## Step 03: Reduce the ITIS Database to a Single Taxonomic Branch
 
-*Guide updated on November 11, 2026.*
+*Guide updated on November 21, 2026.*
 
 ---
 

@@ -1,6 +1,6 @@
 ## Step 06: Test Blazor Integration Using .NET 10
 
-*Guide updated on November 11, 2026.*
+*Guide updated on November 21, 2026.*
 
 ---
 
@@ -170,7 +170,7 @@ Run the Blazor application. The home page will connect to `testudines_itis` and 
 
 
 
-![image-20261121172138529](D:\__Testudines_02\src\Testudines.Data.Itis\docs\assets\image-20261121172138529.png)
+![image-20261121172138529](assets\image-blazor.png)
 
 
 

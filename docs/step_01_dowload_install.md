@@ -1,6 +1,6 @@
-# Step 1. Download ITIS and Install MariaDB / MySQL
+## Step 01: Download ITIS and Install MariaDB / MySQL
 
-*Guide updated on November 11, 2026.*
+*Guide updated on November 21, 2026.*
 
 ---
 

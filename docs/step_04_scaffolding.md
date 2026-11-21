@@ -1,6 +1,6 @@
-### Step 04: Scaffold a MySQL/MariaDB Database Using .NET 10 and Mircroting.EnstityFrameCore.MySql
+## Step 04: Scaffold a MySQL/MariaDB Database Using .NET 10 and Mircroting.EnstityFrameCore.MySql
 
-*Guide updated on November 11, 2026.*
+*Guide updated on November 21, 2026.*
 
 ---
 
