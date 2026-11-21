@@ -54,7 +54,7 @@ While this setup can be easily adapted to newer versions, the scripts and test a
 
 ### Step 1: Local Installation of the Official ITIS Clone
 Set up a local mirror of the official ITIS (*Integrated Taxonomic Information System*) database.  
-👉 [Go to Step 1](../docs/step_01.md) 
+👉 [Go to Step 1](docs/step_01.md) 
 
 
 
