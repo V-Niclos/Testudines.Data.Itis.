@@ -61,20 +61,20 @@ Set up a local mirror of the official ITIS (*Integrated Taxonomic Information Sy
 ### Step 2: Migrate ITIS Clone to `utf8mb4` (Optional)
 Generate a full clone of the ITIS database encoded in `utf8mb4` (using the **InnoDB** engine to avoid column/index length issues during multi-byte conversion) and resolve legacy encoding problems.
 
-👉 [Go to Step 2](./02_Clonar_ITIS_Utf8mb4.md)
+👉 [Go to Step 2](docs/step_02_utf8mb4_encoding.md)
 
 ###  Step 3: Extract a Specific Taxonomic Branch (Optional)
 Create a lightweight clone filtered to a single taxonomic branch. This guide uses turtles (*Testudines*, `TSN: 948936`) as an example, though you can target any other clade such as reptiles (*Reptilia*, `TSN: 173747`), mammals (*Mammalia*, `TSN: 179913`), or birds (*Aves*, `TSN: 174371`). Look up other TSN values on [itis.gov](https://itis.gov/).  
-👉 [Go to Step 3](./03_Filtrado_Rama_ITIS.md)
+👉 [Go to Step 3](docs/step_03_branch.md)
 
 ### Step 4: Data Model Library via Scaffolding (Optional)
 Build a .NET data access library using database-first scaffolding with EF Core, Pomelo, and MySqlConnector.  
-👉 [Go to Step 4](./04_Scaffolding_itis_database.md)
+👉 [Go to Step 4]docs/step_04_scaffolding.md)
 
 ### Step 5: Console Test Application (Optional)
 Create a command-line test application using the data model library generated in Step 4.  
-👉 [Go to Step 5](./05_Console_Test.md)
+👉 [Go to Step 5](docs/step_05_test_console.md)
 
 ### Step 6: Blazor Web Test Application (Optional)
 Build an interactive Blazor web app to browse the distilled database using the data model from Step 4.  
-👉 [Go to Step 6](./06_itis_blazor.md)
+👉 [Go to Step 6](docs/step_06_test_blazor.md)
