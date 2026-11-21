@@ -131,6 +131,10 @@ You need ajust connection string in appsettings.json file
 
 
 
+### Result
+
+![image-20261121174247821](D:\__Testudines_02\src\Testudines.Data.Itis\docs\assets\image-20261121174247821.png)
+
 ## Links Github project
 
 * [Root project](https://github.com/V-Niclos/Testudines.Data.Itis.)

@@ -3,6 +3,8 @@
     <File Path="readme.md" />
   </Folder>
   <Folder Name="/Elementos de la solución/docs/">
+    <File Path="docs/assets/image-20261121172138529.png" />
+    <File Path="docs/assets/image-20261121174247821.png" />
     <File Path="docs/step_01_dowload_install.md" />
     <File Path="docs/step_02_utf8mb4_encoding.md" />
     <File Path="docs/step_03_branch.md" />
@@ -10,6 +12,7 @@
     <File Path="docs/step_05_test_console.md" />
     <File Path="step_06_test_blazor.md" />
   </Folder>
+  <Folder Name="/Elementos de la solución/docs/assets/" />
   <Project Path="src/Testudines.Data.Itis.csproj" />
   <Project Path="tests/Testudines.Data.Itis.TestBlazor/Testudines.Data.Itis.TestBlazor.csproj" />
   <Project Path="tests/Tesudines.Data.Itis.TestConsole/Tesudines.Data.Itis.TestConsole.csproj" />
