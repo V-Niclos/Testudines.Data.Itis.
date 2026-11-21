@@ -8,6 +8,7 @@
     <File Path="docs/step_03_branch.md" />
     <File Path="docs/step_04_scaffolding.md" />
     <File Path="docs/step_05_test_console.md" />
+    <File Path="step_06_test_blazor.md" />
   </Folder>
   <Project Path="src/Testudines.Data.Itis.csproj" />
   <Project Path="tests/Testudines.Data.Itis.TestBlazor/Testudines.Data.Itis.TestBlazor.csproj" />

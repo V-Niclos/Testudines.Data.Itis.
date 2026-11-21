@@ -1,6 +1,8 @@
 ### Steep 05 Test ITIS using Console .Net 10
 
+*Guide updated on November 11, 2026.*
 
+---
 
 ### Objetive
 
@@ -129,6 +131,8 @@ You need ajust connection string in appsettings.json file
 
 
 
-### Download
+## Links Github project
 
-You can download project from 
+* [Root project](https://github.com/V-Niclos/Testudines.Data.Itis.)
+* [Download test source](https://github.com/V-Niclos/Testudines.Data.Itis./tree/master/tests)
+* [Library Testudines.Data.Itis](https://github.com/V-Niclos/Testudines.Data.Itis./tree/master/src)

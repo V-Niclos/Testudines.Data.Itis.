@@ -1,6 +1,8 @@
 ### Step 04: Scaffold a MySQL/MariaDB Database Using .NET 10 and Mircroting.EnstityFrameCore.MySql
 
-*Updated: 2026-11-21*
+*Guide updated on November 11, 2026.*
+
+---
 
 This guide provides instructions for generating  Entity Framework Core models from the  MariaDB or Mysql database using Database-First (reverse engineering) scaffolding.
 
@@ -227,4 +229,8 @@ dotnet ef dbcontext scaffold "Server=localhost;Port=3306;Database=testudines_iti
 
 Proceed to **Step 05: Test the ITIS Database Using a .NET 10 Console App** to verify the database connection and query data using `Testudines.Data.Itis`.
 
-````
+## Links Github project
+
+* [Root project](https://github.com/V-Niclos/Testudines.Data.Itis.)
+* [Download test source](https://github.com/V-Niclos/Testudines.Data.Itis./tree/master/tests)
+* [Library Testudines.Data.Itis](https://github.com/V-Niclos/Testudines.Data.Itis./tree/master/src)

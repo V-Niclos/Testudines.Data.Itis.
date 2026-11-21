@@ -2,6 +2,8 @@
 
 *Guide updated on November 11, 2026.*
 
+---
+
 ## 1. Objective
 
 Install a complete local copy of the ITIS database:
