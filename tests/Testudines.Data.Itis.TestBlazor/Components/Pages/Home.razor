@@ -1,0 +1,70 @@
+﻿@page "/home"
+@page "/"
+@using Microsoft.EntityFrameworkCore
+@using Testudines.Data.Itis.Context
+@using Testudines.Data.Itis.Identities;
+@inject IDbContextFactory< ItisDbContext > DbFactory
+
+
+<h3>Unidades Taxonómicas (ITIS) limit take 20</h3>
+
+@if (isLoading)
+{
+    <div class="d-flex align-items-center my-3">
+        <div class="spinner-border text-primary me-2" role="status"></div>
+        <span>Cargando nombres taxonómicos...</span>
+    </div>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+else if (completeNames is null || completeNames.Count == 0)
+{
+    <p class="text-muted">No se encontraron registros.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (var name in completeNames)
+        {
+            <li class="list-group-item">@name</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<string>? completeNames;
+    private bool isLoading = true;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            isLoading = true;
+
+            // Crea una instancia aislada del DbContext y la libera al terminar
+            await using var context = await DbFactory.CreateDbContextAsync();
+
+            // Nota: Verifica si tu DbSet se llama TaxonomicUnits o TaxonomicUnit
+            completeNames = await context.TaxonomicUnits
+                .AsNoTracking()
+                .Where(u => u.CompleteName != null)
+                .Select(u => u.CompleteName!)
+                .OrderBy(name => name)
+                .Take(20) // Límite preventivo por el gran tamaño de ITIS
+                .ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error al consultar la base de datos: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.15" />
+		<PackageReference Include="Microting.EntityFrameworkCore.MySql" Version="10.0.14" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.15" />
+
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.15" />
+		<ProjectReference Include="..\..\src\Testudines.Data.Itis.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+
+</Project>
